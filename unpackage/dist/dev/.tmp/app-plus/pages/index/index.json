@@ -1,0 +1,36 @@
+{
+  "titleNView": {
+    "backgroundColor": "#FFFFFF",
+    "searchInput": {
+      "align": "center",
+      "backgroundColor": "#f7f7f7",
+      "borderRadius": "4px",
+      "placeholder": "搜索糗事",
+      "placeholderColor": "#cccccc",
+      "disabled": true
+    },
+    "buttons": [
+      {
+        "float": "left",
+        "fontSize": "22px",
+        "fontSrc": "/static/font/icon.ttf",
+        "text": "",
+        "color": "#FF9619",
+        "colorPressed": "#BBBBBB",
+        "fontWeight": "bold"
+      },
+      {
+        "color": "#000000",
+        "colorPressed": "#BBBBBB",
+        "float": "right",
+        "fontSize": "22px",
+        "fontSrc": "/static/font/icon.ttf",
+        "text": "",
+        "fontWeight": "bold"
+      }
+    ]
+  },
+  "usingComponents": {
+    "swiper-tabs": "/components/swiper-tabs/swiper-tabs"
+  }
+}

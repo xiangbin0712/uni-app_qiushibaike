@@ -1,0 +1,1 @@
+<view class="index"><swiper-tabs vue-id="1" currentIndex="{{currentIndex}}" tabs="{{tabs}}" data-event-opts="{{[['^transIndex',[['transIndex']]]]}}" bind:transIndex="__e" bind:__l="__l"></swiper-tabs></view>

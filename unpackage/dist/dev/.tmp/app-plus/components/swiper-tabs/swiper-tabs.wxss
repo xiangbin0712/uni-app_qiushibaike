@@ -1,0 +1,34 @@
+
+.swiper-tabs.data-v-3a665267 {
+	/* border: 1px solid; */
+}
+.scroll-view.data-v-3a665267 {
+	white-space: nowrap;
+}
+.scroll-view .tab.data-v-3a665267 {
+	display: inline-block;
+	color: #969696;
+}
+/* 选中的样式 */
+.scroll-view .active.data-v-3a665267 {
+	color: #000000;
+	position: relative;
+}
+.scroll-view .active.data-v-3a665267:after {
+	content: '';
+	background: #fede33;
+	height: 10rpx;
+	border-radius: 4rpx;
+	width: 70rpx;
+	position: absolute;
+	bottom: 0rpx;
+	left: 50%;
+	margin-left: -35rpx;
+}
+/* 去除滚动条 */
+.data-v-3a665267::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	background-color: transparent;
+}
+
