@@ -1,0 +1,86 @@
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.flex-bet {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-aro {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.font26 {
+	font-size: 26upx;
+}
+
+.font28 {
+	font-size: 28upx
+}
+
+.font30 {
+	font-size: 30upx;
+}
+
+.font32 {
+	font-size: 32upx;
+}
+
+.font34 {
+	font-size: 34upx;
+}
+
+.font40 {
+	font-size: 40upx;
+}
+
+.font50 {
+	font-size: 50upx;
+}
+
+.ml10 {
+	margin-left: 10upx;
+}
+
+.mr10 {
+	margin-right: 10upx;
+}
+
+.ml15 {
+	margin-left: 15upx;
+}
+
+.mr15 {
+	margin-right: 15upx;
+}
+
+.ml20 {
+	margin-left: 20upx;
+}
+
+.mr20 {
+	margin-right: 20upx;
+}
+
+.tac {
+	text-align: center;
+}
+
+.tal {
+	text-align: left;
+}
+
+.tar {
+	text-align: right;
+}
