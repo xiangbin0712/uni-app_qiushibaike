@@ -1,1 +1,2 @@
+setCssToHead([".",[1],"swiper-tabs.",[1],"data-v-7619d4de { padding: ",[0,20]," 0; position: fixed; z-index: 99; width: 100%; background: #ffffff; }\n.",[1],"swiper.",[1],"data-v-7619d4de { padding-top: ",[0,98],"; }\n.",[1],"swiper wx-scroll-view.",[1],"data-v-7619d4de { height: 100%; }\n",],undefined,{path:"./pages/index/index.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));

@@ -31,6 +31,8 @@
     ]
   },
   "usingComponents": {
-    "swiper-tabs": "/components/swiper-tabs/swiper-tabs"
+    "swiper-tabs": "/components/swiper-tabs/swiper-tabs",
+    "index-item": "/components/index/index-item",
+    "load-more": "/components/uni-load-more/uni-load-more"
   }
 }

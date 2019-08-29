@@ -1,0 +1,43 @@
+
+.index-item.data-v-2db4aeaa {
+	padding: 20rpx 30rpx 30rpx;
+	border-bottom: 1rpx solid #eeeeee;
+}
+.header .nickname.data-v-2db4aeaa {
+	color: #9c9c9c;
+}
+.header .care.data-v-2db4aeaa {
+	background: #f4f4f4;
+	border-radius: 4rpx;
+	padding: 0 10rpx;
+}
+.index-item .title.data-v-2db4aeaa {
+	padding: 15rpx 0 20rpx;
+}
+.index-item .thumb.data-v-2db4aeaa {
+	width: 100%;
+	height: 350rpx;
+	border-radius: 10rpx;
+}
+.index-item .video.data-v-2db4aeaa {
+	position: relative;
+}
+.index-item .video .play-icon.data-v-2db4aeaa {
+	font-size: 140rpx;
+	color: #ffffff;
+	position: absolute;
+}
+.index-item .video .play-info.data-v-2db4aeaa {
+	color: #fdfdfc;
+	position: absolute;
+	bottom: 10rpx;
+	right: 10rpx;
+	border-radius: 29rpx;
+	padding: 4rpx 20rpx;
+	background: rgba(0, 0, 0, 0.6);
+}
+.index-item .bottom.data-v-2db4aeaa {
+	color: #d5d5d5;
+	margin-top: 10rpx;
+}
+

@@ -1,0 +1,16 @@
+
+.swiper-tabs.data-v-7619d4de {
+	padding: 20rpx 0;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	background: #ffffff;
+}
+.swiper.data-v-7619d4de {
+	/* height: 900upx; */
+	padding-top: 98rpx;
+}
+.swiper scroll-view.data-v-7619d4de {
+	height: 100%;
+}
+

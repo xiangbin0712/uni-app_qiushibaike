@@ -119,6 +119,19 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /* 18 */,
 /* 19 */,
 /* 20 */
+/*!*****************************************!*\
+  !*** D:/develop/仿糗事百科/common/helper.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.getViewHeight = void 0; // common.js\n\nvar getViewHeight = function getViewHeight(data) {\n  var temp = {};\n  var query = uni.createSelectorQuery().in(this);\n  query.select(data).boundingClientRect(function (res) {\n    temp = res;\n  }).\n  exec();\n  return temp;\n};exports.getViewHeight = getViewHeight;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"default\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vY29tbW9uL2hlbHBlci5qcyJdLCJuYW1lcyI6WyJnZXRWaWV3SGVpZ2h0IiwiZGF0YSIsInRlbXAiLCJxdWVyeSIsInVuaSIsImNyZWF0ZVNlbGVjdG9yUXVlcnkiLCJpbiIsInNlbGVjdCIsImJvdW5kaW5nQ2xpZW50UmVjdCIsInJlcyIsImV4ZWMiXSwibWFwcGluZ3MiOiJ5SUFBQTs7QUFFQSxJQUFNQSxhQUFhLEdBQUcsU0FBaEJBLGFBQWdCLENBQVNDLElBQVQsRUFBZTtBQUNwQyxNQUFJQyxJQUFJLEdBQUcsRUFBWDtBQUNBLE1BQU1DLEtBQUssR0FBR0MsR0FBRyxDQUFDQyxtQkFBSixHQUEwQkMsRUFBMUIsQ0FBNkIsSUFBN0IsQ0FBZDtBQUNBSCxPQUFLLENBQUNJLE1BQU4sQ0FBYU4sSUFBYixFQUFtQk8sa0JBQW5CLENBQXNDLFVBQUFDLEdBQUcsRUFBSTtBQUMzQ1AsUUFBSSxHQUFHTyxHQUFQO0FBQ0EsR0FGRjtBQUdFQyxNQUhGO0FBSUEsU0FBT1IsSUFBUDtBQUNBLENBUkQsQyIsImZpbGUiOiIyMC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIGNvbW1vbi5qc1xyXG5cclxuY29uc3QgZ2V0Vmlld0hlaWdodCA9IGZ1bmN0aW9uKGRhdGEpIHtcclxuXHRsZXQgdGVtcCA9IHt9XHJcblx0Y29uc3QgcXVlcnkgPSB1bmkuY3JlYXRlU2VsZWN0b3JRdWVyeSgpLmluKHRoaXMpO1xyXG5cdHF1ZXJ5LnNlbGVjdChkYXRhKS5ib3VuZGluZ0NsaWVudFJlY3QocmVzID0+IHtcclxuXHRcdFx0dGVtcCA9IHJlc1xyXG5cdFx0fSlcclxuXHRcdC5leGVjKCk7XHJcblx0cmV0dXJuIHRlbXBcclxufVxyXG5cclxuXHJcbmV4cG9ydCB7XHJcblx0Z2V0Vmlld0hlaWdodFxyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///20\n");
+
+/***/ }),
+/* 21 */,
+/* 22 */,
+/* 23 */
 /*!***************************************************************!*\
   !*** D:/develop/仿糗事百科/main.js?{"page":"pages%2Fnews%2Fnews"} ***!
   \***************************************************************/
@@ -126,15 +139,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _news = _interopRequireDefault(__webpack_require__(/*! ./pages/news/news.vue */ 21));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_news.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx5RjtBQUNBQSxVQUFVLENBQUNDLGFBQUQsQ0FBVixDIiwiZmlsZSI6IjIwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvbmV3cy9uZXdzLnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///20\n");
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _news = _interopRequireDefault(__webpack_require__(/*! ./pages/news/news.vue */ 24));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_news.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx5RjtBQUNBQSxVQUFVLENBQUNDLGFBQUQsQ0FBVixDIiwiZmlsZSI6IjIzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvbmV3cy9uZXdzLnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///23\n");
 
 /***/ }),
-/* 21 */,
-/* 22 */,
-/* 23 */,
 /* 24 */,
 /* 25 */,
-/* 26 */
+/* 26 */,
+/* 27 */,
+/* 28 */,
+/* 29 */
 /*!*****************************************************************!*\
   !*** D:/develop/仿糗事百科/main.js?{"page":"pages%2Fpaper%2Fpaper"} ***!
   \*****************************************************************/
@@ -142,15 +155,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _paper = _interopRequireDefault(__webpack_require__(/*! ./pages/paper/paper.vue */ 27));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_paper.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw0RjtBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjI2LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvcGFwZXIvcGFwZXIudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///26\n");
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _paper = _interopRequireDefault(__webpack_require__(/*! ./pages/paper/paper.vue */ 30));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_paper.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSw0RjtBQUNBQSxVQUFVLENBQUNDLGNBQUQsQ0FBVixDIiwiZmlsZSI6IjI5LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvcGFwZXIvcGFwZXIudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///29\n");
 
 /***/ }),
-/* 27 */,
-/* 28 */,
-/* 29 */,
 /* 30 */,
 /* 31 */,
-/* 32 */
+/* 32 */,
+/* 33 */,
+/* 34 */,
+/* 35 */
 /*!***************************************************************!*\
   !*** D:/develop/仿糗事百科/main.js?{"page":"pages%2Fuser%2Fuser"} ***!
   \***************************************************************/
@@ -158,15 +171,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _user = _interopRequireDefault(__webpack_require__(/*! ./pages/user/user.vue */ 33));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_user.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx5RjtBQUNBQSxVQUFVLENBQUNDLGFBQUQsQ0FBVixDIiwiZmlsZSI6IjMyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvdXNlci91c2VyLnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///32\n");
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _user = _interopRequireDefault(__webpack_require__(/*! ./pages/user/user.vue */ 36));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_user.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx5RjtBQUNBQSxVQUFVLENBQUNDLGFBQUQsQ0FBVixDIiwiZmlsZSI6IjM1LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvdXNlci91c2VyLnZ1ZSdcbmNyZWF0ZVBhZ2UoUGFnZSkiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///35\n");
 
 /***/ }),
-/* 33 */,
-/* 34 */,
-/* 35 */,
 /* 36 */,
 /* 37 */,
-/* 38 */
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */
 /*!*************************************************************************!*\
   !*** D:/develop/仿糗事百科/main.js?{"page":"pages%2Fadd-input%2Fadd-input"} ***!
   \*************************************************************************/
@@ -174,15 +187,15 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _addInput = _interopRequireDefault(__webpack_require__(/*! ./pages/add-input/add-input.vue */ 39));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_addInput.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx1RztBQUNBQSxVQUFVLENBQUNDLGlCQUFELENBQVYsQyIsImZpbGUiOiIzOC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL2FkZC1pbnB1dC9hZGQtaW5wdXQudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///38\n");
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _addInput = _interopRequireDefault(__webpack_require__(/*! ./pages/add-input/add-input.vue */ 42));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_addInput.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSx1RztBQUNBQSxVQUFVLENBQUNDLGlCQUFELENBQVYsQyIsImZpbGUiOiI0MS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAndW5pLXBhZ2VzJztcblxuaW1wb3J0IFZ1ZSBmcm9tICd2dWUnICAgICAgICAgICAgXG5pbXBvcnQgUGFnZSBmcm9tICcuL3BhZ2VzL2FkZC1pbnB1dC9hZGQtaW5wdXQudnVlJ1xuY3JlYXRlUGFnZShQYWdlKSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///41\n");
 
 /***/ }),
-/* 39 */,
-/* 40 */,
-/* 41 */,
 /* 42 */,
 /* 43 */,
-/* 44 */
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */
 /*!*******************************************************************!*\
   !*** D:/develop/仿糗事百科/main.js?{"page":"pages%2Fsearch%2Fsearch"} ***!
   \*******************************************************************/
@@ -190,7 +203,7 @@ eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _search = _interopRequireDefault(__webpack_require__(/*! ./pages/search/search.vue */ 45));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_search.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSwrRjtBQUNBQSxVQUFVLENBQUNDLGVBQUQsQ0FBVixDIiwiZmlsZSI6IjQ0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvc2VhcmNoL3NlYXJjaC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///44\n");
+eval("/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);\n\nvar _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));\nvar _search = _interopRequireDefault(__webpack_require__(/*! ./pages/search/search.vue */ 48));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\ncreatePage(_search.default);\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ 1)[\"createPage\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbbnVsbF0sIm5hbWVzIjpbImNyZWF0ZVBhZ2UiLCJQYWdlIl0sIm1hcHBpbmdzIjoia0RBQUE7O0FBRUE7QUFDQSwrRjtBQUNBQSxVQUFVLENBQUNDLGVBQUQsQ0FBVixDIiwiZmlsZSI6IjQ3LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICd1bmktcGFnZXMnO1xuXG5pbXBvcnQgVnVlIGZyb20gJ3Z1ZScgICAgICAgICAgICBcbmltcG9ydCBQYWdlIGZyb20gJy4vcGFnZXMvc2VhcmNoL3NlYXJjaC52dWUnXG5jcmVhdGVQYWdlKFBhZ2UpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///47\n");
 
 /***/ })
 ]]);
