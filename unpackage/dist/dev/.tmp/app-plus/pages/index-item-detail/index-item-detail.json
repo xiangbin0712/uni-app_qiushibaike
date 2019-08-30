@@ -1,0 +1,15 @@
+{
+  "titleNView": {
+    "backgroundColor": "#FFFFFF",
+    "titleText": "",
+    "buttons": [
+      {
+        "float": "right",
+        "type": "menu"
+      }
+    ]
+  },
+  "usingComponents": {
+    "detail-info": "/components/detail-info/detail-info"
+  }
+}

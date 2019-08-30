@@ -56,6 +56,21 @@
 			"style": {}
 		}
 
+		, {
+			"path": "pages/index-item-detail/index-item-detail",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFFFFF",
+						"titleText": "",
+						"buttons": [{
+							"float": "right",
+							"type": "menu"
+						}]
+					}
+				}
+			}
+		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

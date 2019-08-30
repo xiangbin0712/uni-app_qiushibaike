@@ -48,7 +48,10 @@ export default {
 	methods: {
 		// 进入详情页面
 		openDetail() {
-			console.log('godetail');
+			let article = JSON.stringify(this.article);
+			uni.navigateTo({
+				url: '../../pages/index-item-detail/index-item-detail?article=' + article
+			});
 		}
 	}
 };

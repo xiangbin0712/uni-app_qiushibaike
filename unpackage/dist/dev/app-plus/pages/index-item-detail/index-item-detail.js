@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"detail.",[1],"data-v-3e78218d { margin-left: ",[0,30],"; margin-right: ",[0,30],"; }\n",],undefined,{path:"./pages/index-item-detail/index-item-detail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index-item-detail/index-item-detail.wxml') } }));
